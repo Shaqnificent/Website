@@ -2,7 +2,7 @@ import experienceStyles from "./index.module.scss"
 import Tabs from "@/components/Tabs"
 import { useState } from "react"
 import PlaceHolder from "../assets/placeHolder.svg"
-import {skill, work, education} from "./data/index.jsx"
+import {skill, work, education} from "../../data/index.jsx"
 export default function Experience() {
 
     const [active, setActive] = useState(1)
