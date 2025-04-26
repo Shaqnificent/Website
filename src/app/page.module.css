@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .page {
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
@@ -15,7 +16,14 @@
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
-
+.pageV2{
+  background-color: white;
+  min-height: 100svh;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;

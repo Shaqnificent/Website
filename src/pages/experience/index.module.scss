@@ -1,0 +1,144 @@
+.experience{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: calc( 100svh - 100px );
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    
+    .bodyContainer > :nth-child(odd){
+        .workItem, .experienceItem{
+            background-color: #F1F1F1;
+            border-radius: 15px;
+        }
+    }
+
+    .bodyContainer > :nth-child(even){
+        .workItem, .experienceItem{
+            background-color: #F6FEFF;
+            border-radius: 15px;
+        }
+    }
+
+    .bodyContainer{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        height: calc( 100svh - 200px );
+        max-height: 500px;
+        overflow-y: auto;
+        gap: 10px;
+        padding: 25px 0;
+    }
+
+    .titleContainer{
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .mainTitle{
+            font-size: 30px;
+            color: #00286B;
+            font-weight: bold;
+            @media (max-width: 460px) {
+                font-size: 24px;
+            }
+        }
+
+        .subTitle{
+            font-size: 12px;
+            color: gray;
+            @media (max-width: 460px) {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .workContainer{
+        width: 100%;
+        max-width: 750px;
+    }
+
+    .workDetails{
+        width: 65px;
+    }
+    .workDetails{
+        flex: 1;
+        .workSubDetails{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            @media (max-width: 600px) {
+                flex-direction: column;
+                align-items: baseline;
+                .date{
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    .workItem{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+        padding: 15px;
+        .workOccupation{
+            font-size: 13px;
+            @media (max-width: 460px) {
+                font-size: 12px;
+            }
+        }
+
+        .workTitle{
+            font-size: 16px;
+            font-weight: bold;
+            @media (max-width: 460px) {
+                font-size: 16px;
+            }
+        }
+
+        .date{
+            font-size: 12px;
+            color: gray;
+            font-weight: 500;
+            font-style: italic;
+        }
+    }
+
+    .experienceContainer{
+        width: 100%;
+        max-width: 750px;
+        .experienceItem{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            gap: 25px;
+            padding: 15px;
+            .experienceDetails{
+                display: flex;
+                flex-direction: column;
+                .experienceTitle{
+                    font-size: 16px;
+                    font-weight: bold;
+                    @media (max-width: 460px) {
+                        font-size: 16px;
+                    }
+                }
+
+                .experienceExample{
+                    font-size: 12px;
+                    color: gray;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+}
