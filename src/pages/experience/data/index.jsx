@@ -29,19 +29,19 @@ export const work = [
     {
         Title: "Advantage General (AGIC)",
         Occupation: "Software Developer",
-        Date: "Jan 2022 - Dec 2022",
+        Date: "Dec 2022 - Current",
         icon: <AgicIcon />
     },
     {
         Title: "Smart Mobile Solutions (SMS)",
         Occupation: "Software Developer",
-        Date: "Jan 2022 - Dec 2022",
+        Date: "Jun 2022 - Dec 2022",
         icon: <SmsIcon />
     },
     {
         Title: "Utech Sapna",
         Occupation: "Software Developer / UI Designer",
-        Date: "Jan 2022 - Dec 2022",
+        Date: "Aug 2019 - Dec 2022",
         icon: <SapnaIcon />
     }
 ]
