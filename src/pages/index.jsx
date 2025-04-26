@@ -22,13 +22,13 @@ export default function Home() {
                 <div><span style={{fontWeight: "bold"}}>Developer / Designer</span></div>
 
                 <div className={homeStyles.buttonContainer}>
-                    <a href="/files/Resume.pdf"><span className={homeStyles.primary}>Download CV</span></a>
+                    <a href="/files/Resume.pdf" target="_blank"><span className={homeStyles.primary}>Download CV</span></a>
                     <span className={homeStyles.secondary}>Contact Info</span>
                 </div>
 
                 <div className={homeStyles.linksContainer}>
                     <span onClick={()=> navigateToWebsite("https://www.linkedin.com/in/shaqur-adair-424a9a205")}><Linkedin className={homeStyles.linkedin} alt="linkedin logo" /></span>
-                    <span onClick={()=> navigateToWebsite("https://www.linkedin.com/in/shaqur-adair-424a9a205")}><Git className={homeStyles.git} alt="github logo" /></span>
+                    <span onClick={()=> navigateToWebsite("https://github.com/Shaqnificent")}><Git className={homeStyles.git} alt="github logo" /></span>
                 </div>
                 
             </div>
