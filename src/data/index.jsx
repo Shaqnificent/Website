@@ -1,11 +1,11 @@
-import ManningsSchoolIcon from "../assets/Mannings.svg"
-import UtechSchoolIcon from "../assets/Utech.svg"
-import SmsIcon from "../assets/Sms.svg"
-import SapnaIcon from "../assets/Utech.svg"
-import NextIcon from "../assets/Next.svg"
-import VsIcon from "../assets/Vs.svg"
-import FigmaIcon from "../assets/Figma.svg"
-import AgicIcon from "../assets/Agic.svg"
+import ManningsSchoolIcon from "./assets/Mannings.svg"
+import UtechSchoolIcon from "./assets/Utech.svg"
+import SmsIcon from "./assets/Sms.svg"
+import SapnaIcon from "./assets/Utech.svg"
+import NextIcon from "./assets/Next.svg"
+import VsIcon from "./assets/Vs.svg"
+import FigmaIcon from "./assets/Figma.svg"
+import AgicIcon from "./assets/Agic.svg"
 
 export const skill = [
     {
